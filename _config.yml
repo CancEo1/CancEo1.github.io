@@ -1,4 +1,13 @@
+# config file for personal website and portfolio
 title: My Portfolio
 description: A showcase of my creative and technical projects
 theme: jekyll-theme-minimal
 markdown: kramdown
+
+author:
+  name: CancEo1
+  email: canceo721@gmail.com
+social:
+  github: CancEo1
+  youtube: CancEo1
+  itchio: CancEo1
