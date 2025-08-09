@@ -17,3 +17,17 @@ button {
 button:hover {
   transform: scale(1.1);
 }
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+h1, button {
+  position: relative;
+  z-index: 1;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+}
