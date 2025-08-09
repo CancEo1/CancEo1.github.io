@@ -7,15 +7,18 @@ body {
 }
 
 button {
-  background: linear-gradient(45deg, #ff00cc, #3333ff);
+  background: #0ff;
   border: none;
-  color: white;
-  padding: 10px 20px;
-  box-shadow: 0 0 10px #ff00cc;
-  transition: transform 0.3s ease;
+  padding: 12px 24px;
+  font-size: 1.2em;
+  border-radius: 8px;
+  box-shadow: 0 0 20px #0ff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 button:hover {
-  transform: scale(1.1);
+  transform: scale(1.1) rotate(-2deg);
+  box-shadow: 0 0 40px #0ff;
 }
 
 canvas {
